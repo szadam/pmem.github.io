@@ -102,6 +102,9 @@ Fork with [GitHub Codespaces](https://github.com/features/codespaces):
 
 - [Fork, edit, and preview](https://docs.github.com/en/free-pro-team@latest/github/developing-online-with-codespaces/creating-a-codespace) using [GitHub Codespaces](https://github.com/features/codespaces) without having to install and run the project locally.
 
+**<u>Important thing is to rename</u>** your fork repo. It should look like: \<your_github_name\>.github.io 
+<p>This will make possible to see a preview of rendered website from your fork.</p>
+
 ### Create a new Branch
 
 Before making any changes, [create a local branch](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches).
@@ -174,6 +177,8 @@ You must review your changes using a local version of Hugo to confirm the site b
 
   - You'll need **Hugo 0.88.0** or newer to run the site locally.
   - Are you contributing to markdown? Hugo uses the [Goldmark](https://github.com/yuin/goldmark/) Markdown processor which is fully [CommonMark](https://commonmark.org/)-compliant.
+### Before you open a pull request (configure publishing source)
+In order for others to see a preview of rendered website, you must configure publishing source on your fork. External CI workflows "deploy" to GitHub Pages by committing the build output to the gh-pages branch. On your fork go to settings -> Pages -> Source: then change Branch(from which the site will be built) from main to gh-pages. Now you can see preview of your rendered website on: "https://\<name_of_fork\>/"
 
 ### Open a pull request
 
