@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Memkind on PMem.io</title><link>https://pmem.io/memkind/</link><description>Recent content in Memkind on PMem.io</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://pmem.io/memkind/index.xml" rel="self" type="application/rss+xml"/><item><title>MEMKIND</title><link>https://pmem.io/memkind/manpages/memkind.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pmem.io/memkind/manpages/memkind.3/</guid><description>TABLE OF CONTENTS NAME
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Memkind on PMem.io</title><link>https://pmem.io/memkind/</link><description>Recent content in Memkind on PMem.io</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://pmem.io/memkind/index.xml" rel="self" type="application/rss+xml"/><item><title>HBWMALLOC</title><link>https://pmem.io/memkind/manpages/hbwmalloc.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pmem.io/memkind/manpages/hbwmalloc.3/</guid><description>TABLE OF CONTENTS NAME
+SYNOPSIS
+DESCRIPTION
+RETURN VALUE
+ERRORS
+NOTES
+FILES
+ENVIRONMENT
+SYSTEM CONFIGURATION
+KNOWN ISSUES
+COPYRIGHT
+SEE ALSO
+NAME hbwmalloc - The high bandwidth memory interface
+Note: hbwmalloc.h functionality is considered as stable API (STANDARD API).
+SYNOPSIS #include &amp;lt;hbwmalloc.h&amp;gt; Link with -lmemkind int hbw_check_available(void); void* hbw_malloc(size_t size); void* hbw_calloc(size_t nmemb, size_t size); void* hbw_realloc (void *ptr, size_t size); void hbw_free(void *ptr); size_t hbw_malloc_usable_size(void *ptr); int hbw_posix_memalign(void **memptr, size_t alignment, size_t size); int hbw_posix_memalign_psize(void **memptr, size_t alignment, size_t size, hbw_pagesize_t pagesize); hbw_policy_t hbw_get_policy(void); int hbw_set_policy(hbw_policy_t mode); int hbw_verify_memory_region(void *addr, size_t size, int flags); DESCRIPTION hbw_check_available() returns zero if high bandwidth memory is available or an error code described in the ERRORS section if not.</description></item><item><title>MEMKIND</title><link>https://pmem.io/memkind/manpages/memkind.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pmem.io/memkind/manpages/memkind.3/</guid><description>TABLE OF CONTENTS NAME
 SYNOPSIS
 DESCRIPTION
 RETURN VALUE
