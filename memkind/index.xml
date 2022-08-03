@@ -11,14 +11,14 @@ DESCRIPTION
 RETURN VALUE
 ERRORS
 NOTES
-FILES
+UTILS
 ENVIRONMENT
 SYSTEM CONFIGURATION
 KNOWN ISSUES
 COPYRIGHT
 SEE ALSO
 NAME hbwmalloc - The high bandwidth memory interface
-Note: hbwmalloc.h functionality is considered as stable API (STANDARD API).
+Note: hbwmalloc.h functionality is considered as a stable API (STANDARD API).
 SYNOPSIS #include &amp;lt;hbwmalloc.h&amp;gt; Link with -lmemkind int hbw_check_available(void); void* hbw_malloc(size_t size); void* hbw_calloc(size_t nmemb, size_t size); void* hbw_realloc (void *ptr, size_t size); void hbw_free(void *ptr); size_t hbw_malloc_usable_size(void *ptr); int hbw_posix_memalign(void **memptr, size_t alignment, size_t size); int hbw_posix_memalign_psize(void **memptr, size_t alignment, size_t size, hbw_pagesize_t pagesize); hbw_policy_t hbw_get_policy(void); int hbw_set_policy(hbw_policy_t mode); int hbw_verify_memory_region(void *addr, size_t size, int flags); DESCRIPTION hbw_check_available() returns zero if high bandwidth memory is available or an error code described in the ERRORS section if not.</description></item><item><title>LIBMEMTIER</title><link>https://pmem.io/memkind/manpages/libmemtier.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pmem.io/memkind/manpages/libmemtier.3/</guid><description>TABLE OF CONTENTS NAME
 SYNOPSIS
 DESCRIPTION
@@ -62,9 +62,8 @@ STATIC LINKING
 KNOWN ISSUES
 COPYRIGHT
 SEE ALSO
-NAME memkind - Heap manager that enables allocations to memory with different properties.
-This header expose STANDARD and EXPERIMENTAL API. API Standards are described below in this man page.
-SYNOPSIS #include &amp;lt;memkind.h&amp;gt; Link with -lmemkind EXPERIMENTAL API:</description></item><item><title>MEMKINDALLOCATOR</title><link>https://pmem.io/memkind/manpages/memkindallocator.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pmem.io/memkind/manpages/memkindallocator.3/</guid><description>TABLE OF CONTENTS NAME
+NAME memkind - A heap manager that enables allocations to memory with different properties.
+This header expose a STANDARD and an EXPERIMENTAL API. API Standards are described below in this man page.</description></item><item><title>MEMKINDALLOCATOR</title><link>https://pmem.io/memkind/manpages/memkindallocator.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pmem.io/memkind/manpages/memkindallocator.3/</guid><description>TABLE OF CONTENTS NAME
 SYNOPSIS
 DESCRIPTION
 SYSTEM CONFIGURATION
