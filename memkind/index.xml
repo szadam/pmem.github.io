@@ -78,5 +78,5 @@ DESCRIPTION
 COPYRIGHT
 SEE ALSO
 NAME libmemkind::pmem::allocator - The C++ allocator compatible with the C++ standard library allocator concepts
-Note: pmem_allocator.h functionality is considered as stable API (STANDARD API).
+Note: pmem_allocator.h functionality is considered as a stable API (STANDARD API).
 SYNOPSIS #include &amp;lt;pmem_allocator.h&amp;gt; Link with -lmemkind libmemkind::pmem::allocator(const char *dir, size_t max_size); libmemkind::pmem::allocator(const char &amp;amp;dir, size_t max_size, libmemkind::allocation_policy alloc_policy); libmemkind::pmem::allocator(const std::string &amp;amp;dir, size_t max_size); libmemkind::pmem::allocator(const std::string &amp;amp;dir, size_t max_size, libmemkind::allocation_policy alloc_policy); template &amp;lt;typename U&amp;gt; libmemkind::pmem::allocator&amp;lt;T&amp;gt;::allocator(const libmemkind::pmem::allocator&amp;lt;U&amp;gt;&amp;amp;) noexcept; template &amp;lt;typename U&amp;gt; libmemkind::pmem::allocator(const allocator&amp;lt;U&amp;gt;&amp;amp;&amp;amp; other) noexcept; libmemkind::pmem::allocator&amp;lt;T&amp;gt;::~allocator(); T *libmemkind::pmem::allocator&amp;lt;T&amp;gt;::allocate(std::size_t n) const; void libmemkind::pmem::allocator&amp;lt;T&amp;gt;::deallocate(T *p, std::size_t n) const; template &amp;lt;class U, class.</description></item></channel></rss>
